@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react'
-import { localeLabels, localeShort, type Locale } from './i18n/content'
+import { localeLabels, type Locale } from './i18n/content'
 import { useLanguage } from './i18n/LanguageContext'
 
 const YOUTUBE_EMBED = 'https://www.youtube.com/embed/6yr79aHvDfY'
@@ -63,7 +63,7 @@ function LanguageSelect() {
         aria-expanded={open}
         onClick={() => setOpen((v) => !v)}
       >
-        {localeShort[locale]} <span className="caret" aria-hidden>▾</span>
+        {localeLabels[locale]} <span className="caret" aria-hidden>▾</span>
       </button>
       <div className="lang-menu" role="listbox" hidden={!open} aria-label="Language">
         {locales.map((code) => (
@@ -104,7 +104,7 @@ function Header() {
     <header className="site-header">
       <div className="shell header-inner">
         <a href="#home" className="brand" onClick={closeMenu}>
-          <span className="brand-name">Nibedita Nayak</span>
+          <span className="brand-name">Smt. Nibedita Nayak</span>
           <span className="brand-identity">{t.header.identity}</span>
         </a>
 
@@ -206,6 +206,7 @@ export default function App() {
                   <p className="section-lead" style={{ marginTop: 0 }}>
                     {t.about.lead}
                   </p>
+                  <blockquote className="pull-quote">{t.about.quote}</blockquote>
                   <div className="about-body" style={{ marginTop: '1.25rem' }}>
                     {t.about.body.map((para) => (
                       <p key={para.slice(0, 24)}>{para}</p>
@@ -309,7 +310,7 @@ export default function App() {
           <div className="shell">
             <Reveal>
               <p className="eyebrow">{t.culture.eyebrow}</p>
-              <h2 className="section-title" id="culture-title">
+              <h2 className="section-title culture-display" id="culture-title">
                 {t.culture.title}
               </h2>
               <div className="culture-layout" style={{ marginTop: '1.5rem' }}>

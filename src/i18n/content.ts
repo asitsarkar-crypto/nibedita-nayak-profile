@@ -27,6 +27,7 @@ type Content = {
     eyebrow: string
     title: string
     lead: string
+    quote: string
     body: string[]
     pillars: { title: string; text: string }[]
   }
@@ -123,9 +124,10 @@ export const content: Record<Locale, Content> = {
         'More than two decades of grassroots transformation, governance, and public policy — advancing social justice, gender equality, inclusive growth, and Odisha’s cultural legacy.',
       cta: 'Explore her journey',
       strip: [
-        { value: '20+ Years', label: 'Grassroots Transformation & Governance' },
-        { value: 'Public Policy', label: 'Social Justice & Inclusive Growth' },
-        { value: 'Odisha', label: 'Culture · Community · Development' },
+        { value: '20+', label: 'Years of experience' },
+        { value: '40+', label: 'Minor Irrigation Projects' },
+        { value: '30', label: 'Districts — Bande Odisha' },
+        { value: '1000+', label: 'Kirtan Mandalis' },
       ],
     },
     about: {
@@ -133,9 +135,11 @@ export const content: Record<Locale, Content> = {
       title: 'A life bridging policy and people',
       lead:
         'Smt. Nibedita Nayak is a distinguished socio-political leader, development strategist, and cultural ambassador of Odisha.',
+      quote:
+        'Bridging the gap between policy and people — so welfare reaches the last mile.',
       body: [
         'With over two decades of experience in grassroots transformation, governance, and public policy, she has emerged as a strong advocate for social justice, gender equality, inclusive growth, and preservation of Odisha’s cultural legacy.',
-        'Her political vision is rooted in empowering marginalized communities, advancing women and youth leadership, ensuring access to healthcare and education, and promoting sustainable livelihoods. She has worked relentlessly to bridge the gap between policy and people, ensuring that welfare schemes reach the last mile.',
+        'Her political vision is rooted in empowering marginalized communities, advancing women and youth leadership, ensuring access to healthcare and education, and promoting sustainable livelihoods.',
       ],
       pillars: [
         { title: 'Governance', text: 'Public institutions, welfare delivery, and accountable local leadership.' },
@@ -374,9 +378,10 @@ export const content: Record<Locale, Content> = {
         'দুই দশকেরও বেশি তৃণমূল রূপান্তর, শাসন ও জননীতি — সামাজিক ন্যায়, লিঙ্গ সমতা, অন্তর্ভুক্তিমূলক বৃদ্ধি এবং ওড়িশার সাংস্কৃতিক উত্তরাধিকারকে এগিয়ে নিয়ে যাওয়া।',
       cta: 'তাঁর যাত্রা দেখুন',
       strip: [
-        { value: '২০+ বছর', label: 'তৃণমূল রূপান্তর ও শাসন' },
-        { value: 'জননীতি', label: 'সামাজিক ন্যায় ও অন্তর্ভুক্তিমূলক বৃদ্ধি' },
-        { value: 'ওড়িশা', label: 'সংস্কৃতি · সম্প্রদায় · উন্নয়ন' },
+        { value: '২০+', label: 'বছরের অভিজ্ঞতা' },
+        { value: '৪০+', label: 'ক্ষুদ্র সেচ প্রকল্প' },
+        { value: '৩০', label: 'জেলা — বন্দে ওড়িশা' },
+        { value: '১০০০+', label: 'কীর্তন মণ্ডলী' },
       ],
     },
     about: {
@@ -384,9 +389,11 @@ export const content: Record<Locale, Content> = {
       title: 'নীতি ও মানুষের সেতুবন্ধন',
       lead:
         'শ্রীমতি নিবেদিতা নায়ক ওড়িশার একজন বিশিষ্ট সামাজিক-রাজনৈতিক নেত্রী, উন্নয়ন কৌশলবিদ ও সাংস্কৃতিক রাষ্ট্রদূত।',
+      quote:
+        'নীতি ও মানুষের ব্যবধান কমানো — যাতে কল্যাণ শেষ মাইল পর্যন্ত পৌঁছায়।',
       body: [
         'তৃণমূল রূপান্তর, শাসন ও জননীতিতে দুই দশকেরও বেশি অভিজ্ঞতা নিয়ে তিনি সামাজিক ন্যায়, লিঙ্গ সমতা, অন্তর্ভুক্তিমূলক বৃদ্ধি এবং ওড়িশার সাংস্কৃতিক ঐতিহ্য সংরক্ষণের দৃঢ় প্রবক্তা হিসেবে আবির্ভূত হয়েছেন।',
-        'তাঁর রাজনৈতিক দৃষ্টিভঙ্গি প্রান্তিক সম্প্রদায়কে ক্ষমতায়ন, নারী ও যুব নেতৃত্বের অগ্রগতি, স্বাস্থ্যসেবা ও শিক্ষার প্রবেশাধিকার এবং টেকসই জীবিকার প্রসারে নিহিত। তিনি নীতি ও মানুষের মধ্যে ব্যবধান কমাতে নিরলস কাজ করেছেন, যাতে কল্যাণমূলক প্রকল্পগুলো শেষ মাইল পর্যন্ত পৌঁছায়।',
+        'তাঁর রাজনৈতিক দৃষ্টিভঙ্গি প্রান্তিক সম্প্রদায়কে ক্ষমতায়ন, নারী ও যুব নেতৃত্বের অগ্রগতি, স্বাস্থ্যসেবা ও শিক্ষার প্রবেশাধিকার এবং টেকসই জীবিকার প্রসারে নিহিত।',
       ],
       pillars: [
         { title: 'শাসন', text: 'জনপ্রতিষ্ঠান, কল্যাণ বিতরণ এবং দায়িত্বশীল স্থানীয় নেতৃত্ব।' },
@@ -624,9 +631,10 @@ export const content: Record<Locale, Content> = {
         'दो दशकों से अधिक जमीनी परिवर्तन, शासन और लोकनीति — सामाजिक न्याय, लैंगिक समानता, समावेशी विकास और ओडिशा की सांस्कृतिक विरासत को आगे बढ़ाते हुए।',
       cta: 'उनकी यात्रा देखें',
       strip: [
-        { value: '२०+ वर्ष', label: 'जमीनी परिवर्तन एवं शासन' },
-        { value: 'लोकनीति', label: 'सामाजिक न्याय एवं समावेशी विकास' },
-        { value: 'ओडिशा', label: 'संस्कृति · समुदाय · विकास' },
+        { value: '२०+', label: 'वर्षों का अनुभव' },
+        { value: '४०+', label: 'लघु सिंचाई परियोजनाएँ' },
+        { value: '३०', label: 'जिले — बंदे ओडिशा' },
+        { value: '१०००+', label: 'कीर्तन मंडलियाँ' },
       ],
     },
     about: {
@@ -634,9 +642,11 @@ export const content: Record<Locale, Content> = {
       title: 'नीति और लोगों के बीच सेतु',
       lead:
         'श्रीमती निबेदिता नायक ओडिशा की एक प्रतिष्ठित सामाजिक-राजनीतिक नेत्री, विकास रणनीतिकार और सांस्कृतिक राजदूत हैं।',
+      quote:
+        'नीति और लोगों के बीच की दूरी घटाना — ताकि कल्याण अंतिम छोर तक पहुँचे।',
       body: [
         'जमीनी परिवर्तन, शासन और लोकनीति में दो दशकों से अधिक अनुभव के साथ वे सामाजिक न्याय, लैंगिक समानता, समावेशी विकास और ओडिशा की सांस्कृतिक विरासत के संरक्षण की प्रबल पक्षधर बनी हैं।',
-        'उनकी राजनीतिक दृष्टि हाशिये पर स्थित समुदायों को सशक्त करने, महिला एवं युवा नेतृत्व को आगे बढ़ाने, स्वास्थ्य एवं शिक्षा की पहुँच सुनिश्चित करने तथा सतत आजीविका को बढ़ावा देने में निहित है। उन्होंने नीति और लोगों के बीच की दूरी घटाने के लिए निरंतर कार्य किया है, ताकि कल्याणकारी योजनाएँ अंतिम छोर तक पहुँचें।',
+        'उनकी राजनीतिक दृष्टि हाशिये पर स्थित समुदायों को सशक्त करने, महिला एवं युवा नेतृत्व को आगे बढ़ाने, स्वास्थ्य एवं शिक्षा की पहुँच सुनिश्चित करने तथा सतत आजीविका को बढ़ावा देने में निहित है।',
       ],
       pillars: [
         { title: 'शासन', text: 'सार्वजनिक संस्थान, कल्याण वितरण और जवाबदेह स्थानीय नेतृत्व।' },
