@@ -73,6 +73,12 @@ type Content = {
     cta: string
     note: string
   }
+  gallery: {
+    eyebrow: string
+    title: string
+    intro: string
+    items: { src: string; alt: string; caption: string }[]
+  }
   education: {
     eyebrow: string
     title: string
@@ -266,6 +272,53 @@ export const content: Record<Locale, Content> = {
         'Odisha Talks is a podcast and content platform highlighting beliefs, thoughts, culture, and struggle stories of Odia people. This conversation offers a public window into her work on welfare, healthcare access, and leadership.',
       cta: 'Watch the Conversation',
       note: 'Source: Odisha Talks Episode 9',
+    },
+    gallery: {
+      eyebrow: 'Moments',
+      title: 'In the field',
+      intro: 'Leadership, community, and cultural engagements — selected photographs from her public work.',
+      items: [
+        {
+          src: '/images/leadership-meeting.png',
+          alt: 'Formal leadership meeting',
+          caption: 'Leadership meeting',
+        },
+        {
+          src: '/images/governance-peers.png',
+          alt: 'With peers in a formal setting',
+          caption: 'Institutional engagement',
+        },
+        {
+          src: '/images/culture-books.png',
+          alt: 'Cultural book presentation',
+          caption: 'Culture & literature',
+        },
+        {
+          src: '/images/bande-odisha.png',
+          alt: 'Bande Odisha community gathering',
+          caption: 'Bande Odisha',
+        },
+        {
+          src: '/images/women-awakening.png',
+          alt: 'Women’s awakening centre inauguration',
+          caption: 'Women & community',
+        },
+        {
+          src: '/images/cultural-leaders.png',
+          alt: 'With cultural and community leaders',
+          caption: 'Community leaders',
+        },
+        {
+          src: '/images/hero-portrait.png',
+          alt: 'Cultural presentation with Jagannath artwork',
+          caption: 'Cultural presentation',
+        },
+        {
+          src: '/images/community-meeting.png',
+          alt: 'Community meeting indoors',
+          caption: 'Grassroots meeting',
+        },
+      ],
     },
     education: {
       eyebrow: '08 — Education',
@@ -470,6 +523,53 @@ export const content: Record<Locale, Content> = {
       cta: 'আলাপটি দেখুন',
       note: 'উৎস: ওড়িশা টক্স পর্ব ৯',
     },
+    gallery: {
+      eyebrow: 'মুহূর্ত',
+      title: 'মাঠে ও মঞ্চে',
+      intro: 'নেতৃত্ব, সম্প্রদায় ও সাংস্কৃতিক সম্পৃক্ততার নির্বাচিত আলোকচিত্র।',
+      items: [
+        {
+          src: '/images/leadership-meeting.png',
+          alt: 'আনুষ্ঠানিক নেতৃত্ব বৈঠক',
+          caption: 'নেতৃত্ব বৈঠক',
+        },
+        {
+          src: '/images/governance-peers.png',
+          alt: 'আনুষ্ঠানিক পরিবেশে সহকর্মীদের সঙ্গে',
+          caption: 'প্রাতিষ্ঠানিক সম্পৃক্ততা',
+        },
+        {
+          src: '/images/culture-books.png',
+          alt: 'সাংস্কৃতিক বই উপস্থাপনা',
+          caption: 'সংস্কৃতি ও সাহিত্য',
+        },
+        {
+          src: '/images/bande-odisha.png',
+          alt: 'বন্দে ওড়িশা সম্প্রদায় সমাবেশ',
+          caption: 'বন্দে ওড়িশা',
+        },
+        {
+          src: '/images/women-awakening.png',
+          alt: 'নারী জাগরণ কেন্দ্র উদ্বোধন',
+          caption: 'নারী ও সম্প্রদায়',
+        },
+        {
+          src: '/images/cultural-leaders.png',
+          alt: 'সাংস্কৃতিক ও সম্প্রদায় নেতাদের সঙ্গে',
+          caption: 'সম্প্রদায় নেতৃত্ব',
+        },
+        {
+          src: '/images/hero-portrait.png',
+          alt: 'জগন্নাথ চিত্রসহ সাংস্কৃতিক উপস্থাপনা',
+          caption: 'সাংস্কৃতিক উপস্থাপনা',
+        },
+        {
+          src: '/images/community-meeting.png',
+          alt: 'অন্দর সম্প্রদায় বৈঠক',
+          caption: 'তৃণমূল বৈঠক',
+        },
+      ],
+    },
     education: {
       eyebrow: '০৮ — শিক্ষা',
       title: 'শৈক্ষিক ভিত্তি',
@@ -672,6 +772,53 @@ export const content: Record<Locale, Content> = {
         'ओडिशा टॉक्स ओडिया लोगों की मान्यताओं, विचारों, संस्कृति और संघर्ष की कहानियों को उजागर करने वाला पॉडकास्ट एवं कंटेंट प्लेटफ़ॉर्म है। यह संवाद कल्याण, स्वास्थ्य पहुँच और नेतृत्व पर उनके कार्य की सार्वजनिक झलक देता है।',
       cta: 'संवाद देखें',
       note: 'स्रोत: ओडिशा टॉक्स एपिसोड ९',
+    },
+    gallery: {
+      eyebrow: 'क्षण',
+      title: 'मैदान में',
+      intro: 'नेतृत्व, समुदाय और सांस्कृतिक जुड़ाव की चयनित तस्वीरें।',
+      items: [
+        {
+          src: '/images/leadership-meeting.png',
+          alt: 'औपचारिक नेतृत्व बैठक',
+          caption: 'नेतृत्व बैठक',
+        },
+        {
+          src: '/images/governance-peers.png',
+          alt: 'औपचारिक परिवेश में साथियों के साथ',
+          caption: 'संस्थागत जुड़ाव',
+        },
+        {
+          src: '/images/culture-books.png',
+          alt: 'सांस्कृतिक पुस्तक प्रस्तुति',
+          caption: 'संस्कृति एवं साहित्य',
+        },
+        {
+          src: '/images/bande-odisha.png',
+          alt: 'बंदे ओडिशा सामुदायिक सभा',
+          caption: 'बंदे ओडिशा',
+        },
+        {
+          src: '/images/women-awakening.png',
+          alt: 'महिला जागरण केंद्र उद्घाटन',
+          caption: 'महिला एवं समुदाय',
+        },
+        {
+          src: '/images/cultural-leaders.png',
+          alt: 'सांस्कृतिक और सामुदायिक नेताओं के साथ',
+          caption: 'सामुदायिक नेतृत्व',
+        },
+        {
+          src: '/images/hero-portrait.png',
+          alt: 'जगन्नाथ चित्र के साथ सांस्कृतिक प्रस्तुति',
+          caption: 'सांस्कृतिक प्रस्तुति',
+        },
+        {
+          src: '/images/community-meeting.png',
+          alt: 'इंडोर सामुदायिक बैठक',
+          caption: 'जमीनी बैठक',
+        },
+      ],
     },
     education: {
       eyebrow: '०८ — शिक्षा',

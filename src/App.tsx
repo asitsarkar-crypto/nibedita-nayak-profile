@@ -403,6 +403,24 @@ export default function App() {
           </div>
         </section>
 
+        <section className="section" id="gallery">
+          <div className="shell">
+            <Reveal>
+              <p className="eyebrow">{t.gallery.eyebrow}</p>
+              <h2 className="section-title">{t.gallery.title}</h2>
+              <p className="section-lead">{t.gallery.intro}</p>
+              <div className="gallery-grid">
+                {t.gallery.items.map((item) => (
+                  <figure className="gallery-item" key={item.src}>
+                    <img src={item.src} alt={item.alt} loading="lazy" width={800} height={600} />
+                    <figcaption>{item.caption}</figcaption>
+                  </figure>
+                ))}
+              </div>
+            </Reveal>
+          </div>
+        </section>
+
         <section className="section" id="education">
           <div className="shell">
             <Reveal>
