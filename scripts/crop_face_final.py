@@ -1,27 +1,42 @@
-from PIL import Image
+from PIL import Image, ImageFilter, ImageEnhance, ImageOps
 from pathlib import Path
 
 base = Path(r"C:\Users\asits\Projects\nibedita-nayak-profile\public\images")
-im = Image.open(base / "hero-portrait.png").convert("RGB")
-w, h = im.size
+books = Image.open(base / "culture-books.png").convert("RGB")
+w, h = books.size
 
-# Tighter face crop — exclude colleague on right, focus face + shoulders
-box = (int(w * 0.0), int(h * 0.04), int(w * 0.52), int(h * 0.42))
-crop = im.crop(box)
+# Wider vertical window so hair crown has breathing room
+left = int(w * 0.60)
+top = 0
+right = int(w * 0.995)
+bottom = int(h * 0.55)
+crop = books.crop((left, top, right, bottom))
 
-# Force 3:4 centered on face (bias upward)
-tw, th = crop.size
-target_ratio = 3 / 4
-cur = tw / th
-if cur > target_ratio:
-    nw = int(th * target_ratio)
-    left = max(0, (tw - nw) // 3)  # keep left (her face)
-    crop = crop.crop((left, 0, left + nw, th))
+# Build 3:4 canvas — place subject with headroom (pad top if needed)
+cw, ch = crop.size
+target_w, target_h = 1200, 1600
+# Scale so width fills, then pad top/bottom as needed
+scale = target_w / cw
+resized = crop.resize((target_w, max(1, int(ch * scale))), Image.Resampling.LANCZOS)
+rw, rh = resized.size
+
+canvas = Image.new("RGB", (target_w, target_h), (236, 232, 226))
+# Prefer aligning so top of source stays near top, with small pad
+pad_top = max(24, (target_h - rh) // 5) if rh < target_h else 0
+if rh > target_h:
+    # Too tall: keep top (hair), trim bottom only
+    resized = resized.crop((0, 0, rw, target_h))
+    canvas.paste(resized, (0, 0))
 else:
-    nh = int(tw / target_ratio)
-    top = max(0, int((th - nh) * 0.15))
-    crop = crop.crop((0, top, tw, top + nh))
+    canvas.paste(resized, (0, pad_top))
+    # Soft fill remaining bottom with edge color
+    if pad_top + rh < target_h:
+        edge = resized.crop((0, rh - 1, rw, rh)).resize((target_w, target_h - pad_top - rh))
+        canvas.paste(edge, (0, pad_top + rh))
 
-out = crop.resize((960, 1280), Image.Resampling.LANCZOS)
-out.save(base / "face-portrait.png", optimize=True)
-print("saved face-portrait.png", out.size)
+out = ImageEnhance.Sharpness(canvas).enhance(1.4)
+out = ImageEnhance.Contrast(out).enhance(1.06)
+out = ImageEnhance.Color(out).enhance(1.03)
+out = out.filter(ImageFilter.UnsharpMask(radius=1.1, percent=90, threshold=2))
+out.save(base / "face-portrait.png", optimize=True, quality=95)
+print("saved with headroom", out.size)

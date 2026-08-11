@@ -12,7 +12,8 @@
   --gold: #8c6d3f;
   --serif: 'Instrument Serif', Georgia, 'Times New Roman', serif;
   --sans: 'Manrope', 'Segoe UI', sans-serif;
-  --header-h: 4.25rem;
+  --nav: 'Syne', 'Manrope', sans-serif;
+  --header-h: 4.5rem;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   color-scheme: light;
 }
@@ -95,8 +96,9 @@ button {
 
 .eyebrow {
   margin: 0 0 0.85rem;
+  font-family: var(--nav);
   font-size: 0.78rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--accent);
@@ -133,9 +135,10 @@ button {
   top: 0;
   z-index: 50;
   height: var(--header-h);
-  backdrop-filter: blur(14px);
-  background: rgba(243, 246, 244, 0.86);
+  backdrop-filter: blur(16px);
+  background: rgba(247, 249, 248, 0.9);
   border-bottom: 1px solid var(--line);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
 }
 
 .header-inner {
@@ -155,35 +158,60 @@ button {
 
 .brand-name {
   font-family: var(--serif);
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   line-height: 1.1;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.015em;
 }
 
 .brand-identity {
-  font-size: 0.72rem;
+  font-family: var(--nav);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
   color: var(--ink-faint);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 220px;
+  max-width: 240px;
 }
 
 .nav-desktop {
   display: none;
   align-items: center;
-  gap: 1.6rem;
+  gap: 1.85rem;
 }
 
 .nav-desktop a {
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: var(--ink-soft);
+  font-family: var(--nav);
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+  position: relative;
+  padding: 0.25rem 0;
   transition: color 0.2s var(--ease);
 }
 
+.nav-desktop a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -0.15rem;
+  height: 2px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s var(--ease);
+}
+
 .nav-desktop a:hover {
-  color: var(--ink);
+  color: var(--accent);
+}
+
+.nav-desktop a:hover::after {
+  transform: scaleX(1);
 }
 
 .header-actions {
@@ -200,13 +228,14 @@ button {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  padding: 0.4rem 0.65rem;
+  padding: 0.45rem 0.75rem;
   border: 1px solid var(--line);
   border-radius: 999px;
-  font-size: 0.82rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  background: rgba(255, 255, 255, 0.45);
+  font-family: var(--nav);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  background: rgba(255, 255, 255, 0.55);
 }
 
 .lang-btn span.caret {
@@ -286,9 +315,11 @@ button {
 }
 
 .mobile-nav a {
-  padding: 0.85rem 0;
-  font-size: 1.05rem;
-  font-weight: 500;
+  padding: 0.9rem 0;
+  font-family: var(--nav);
+  font-size: 1.12rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
   border-bottom: 1px solid var(--line);
 }
 
@@ -333,12 +364,14 @@ button {
   align-items: center;
   gap: 0.55rem;
   margin-top: 1.75rem;
-  padding: 0.85rem 1.25rem;
+  padding: 0.9rem 1.35rem;
   background: var(--accent);
   color: #f4f7f6;
   border-radius: 999px;
+  font-family: var(--nav);
   font-size: 0.92rem;
-  font-weight: 600;
+  font-weight: 700;
+  letter-spacing: 0.02em;
   transition: background 0.2s var(--ease), transform 0.2s var(--ease);
 }
 
@@ -363,7 +396,7 @@ button {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 18%;
+  object-position: center top;
 }
 
 .hero-visual::after {
