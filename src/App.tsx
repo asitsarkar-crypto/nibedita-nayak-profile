@@ -175,7 +175,7 @@ export default function App() {
               </div>
               <figure className="hero-visual">
                 <img
-                  src="/images/face-portrait.png?v=3in"
+                  src="/images/face-portrait.png?v=fill"
                   alt="Smt. Nibedita Nayak"
                   width={1200}
                   height={1600}
