@@ -52,7 +52,7 @@ function LanguageSelect() {
     }
   }, [])
 
-  const locales: Locale[] = ['en', 'bn', 'hi']
+  const locales: Locale[] = ['en', 'bn', 'hi', 'or']
 
   return (
     <div className="lang-wrap" ref={wrapRef}>

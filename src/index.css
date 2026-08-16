@@ -10,9 +10,9 @@
   --accent: #1f4f46;
   --accent-hover: #163b34;
   --gold: #8c6d3f;
-  --serif: 'Instrument Serif', Georgia, 'Times New Roman', serif;
-  --sans: 'Manrope', 'Segoe UI', sans-serif;
-  --nav: 'Syne', 'Manrope', sans-serif;
+  --serif: 'Instrument Serif', 'Noto Sans Oriya', Georgia, 'Times New Roman', serif;
+  --sans: 'Manrope', 'Noto Sans Oriya', 'Segoe UI', sans-serif;
+  --nav: 'Syne', 'Manrope', 'Noto Sans Oriya', sans-serif;
   --header-h: 4.5rem;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   color-scheme: light;

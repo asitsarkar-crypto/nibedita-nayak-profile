@@ -22,7 +22,7 @@ const STORAGE_KEY = 'nn-locale'
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [locale, setLocaleState] = useState<Locale>(() => {
     const saved = localStorage.getItem(STORAGE_KEY) as Locale | null
-    if (saved === 'en' || saved === 'bn' || saved === 'hi') return saved
+    if (saved === 'en' || saved === 'bn' || saved === 'hi' || saved === 'or') return saved
     return 'en'
   })
 
@@ -32,7 +32,8 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   }, [])
 
   useEffect(() => {
-    document.documentElement.lang = locale === 'bn' ? 'bn' : locale === 'hi' ? 'hi' : 'en'
+    const htmlLang = locale === 'bn' ? 'bn' : locale === 'hi' ? 'hi' : locale === 'or' ? 'or' : 'en'
+    document.documentElement.lang = htmlLang
     document.title = content[locale].meta.title
     const meta = document.querySelector('meta[name="description"]')
     if (meta) meta.setAttribute('content', content[locale].meta.description)
