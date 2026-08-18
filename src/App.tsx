@@ -104,7 +104,7 @@ function Header() {
     <header className="site-header">
       <div className="shell header-inner">
         <a href="#home" className="brand" onClick={closeMenu}>
-          <span className="brand-name">Smt. Nibedita Nayak</span>
+          <span className="brand-name">Smt. Nibedita Baliarsingh Nayak</span>
           <span className="brand-identity">{t.header.identity}</span>
         </a>
 
@@ -176,7 +176,7 @@ export default function App() {
               <figure className="hero-visual">
                 <img
                   src="/images/face-portrait.png?v=fill"
-                  alt="Smt. Nibedita Nayak"
+                  alt="Smt. Nibedita Baliarsingh Nayak"
                   width={1200}
                   height={1600}
                   fetchPriority="high"
@@ -216,7 +216,7 @@ export default function App() {
                 <figure className="about-photo">
                   <img
                     src="/images/hero-portrait.png"
-                    alt="Smt. Nibedita Nayak at a cultural presentation"
+                    alt="Smt. Nibedita Baliarsingh Nayak at a cultural presentation"
                     loading="lazy"
                     width={800}
                     height={900}
@@ -387,7 +387,7 @@ export default function App() {
                 <div className="media-embed">
                   <iframe
                     src={`${YOUTUBE_EMBED}?rel=0`}
-                    title="Odisha Talks — Nibedita Nayak Baliarsingh"
+                    title="Odisha Talks — Nibedita Baliarsingh Nayak"
                     loading="lazy"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -463,11 +463,11 @@ export default function App() {
       <footer className="site-footer">
         <div className="shell footer-inner">
           <div>
-            <div className="footer-name">Smt. Nibedita Nayak</div>
+            <div className="footer-name">Smt. Nibedita Baliarsingh Nayak</div>
             <div className="footer-role">{t.footer.role}</div>
           </div>
           <div className="footer-copy">
-            © {new Date().getFullYear()} Nibedita Nayak. {t.footer.rights}
+            © {new Date().getFullYear()} Nibedita Baliarsingh Nayak. {t.footer.rights}
           </div>
         </div>
       </footer>

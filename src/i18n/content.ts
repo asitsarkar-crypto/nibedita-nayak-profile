@@ -103,9 +103,9 @@ type Content = {
 export const content: Record<Locale, Content> = {
   en: {
     meta: {
-      title: 'Smt. Nibedita Nayak — Social Leader & Policy Influencer',
+      title: 'Smt. Nibedita Baliarsingh Nayak — Social Leader & Policy Influencer',
       description:
-        'Smt. Nibedita Nayak is a socio-political leader, development strategist, and cultural ambassador of Odisha with over two decades of experience in grassroots transformation, governance, and public policy.',
+        'Smt. Nibedita Baliarsingh Nayak is a socio-political leader, development strategist, and cultural ambassador of Odisha with over two decades of experience in grassroots transformation, governance, and public policy.',
     },
     nav: {
       home: 'Home',
@@ -120,7 +120,7 @@ export const content: Record<Locale, Content> = {
       close: 'Close',
     },
     hero: {
-      name: 'Smt. Nibedita Nayak',
+      name: 'Smt. Nibedita Baliarsingh Nayak',
       role: 'Social Leader & Policy Influencer',
       statement:
         'More than two decades of grassroots transformation, governance, and public policy — advancing social justice, gender equality, inclusive growth, and Odisha’s cultural legacy.',
@@ -136,7 +136,7 @@ export const content: Record<Locale, Content> = {
       eyebrow: '01 — The Story',
       title: 'A life bridging policy and people',
       lead:
-        'Smt. Nibedita Nayak is a distinguished socio-political leader, development strategist, and cultural ambassador of Odisha.',
+        'Smt. Nibedita Baliarsingh Nayak is a distinguished socio-political leader, development strategist, and cultural ambassador of Odisha.',
       quote:
         'Bridging the gap between policy and people — so welfare reaches the last mile.',
       body: [
@@ -271,7 +271,7 @@ export const content: Record<Locale, Content> = {
     media: {
       eyebrow: '07 — Media',
       title: 'In Conversation with Odisha Talks',
-      guest: 'Nibedita Nayak Baliarsingh',
+      guest: 'Nibedita Baliarsingh Nayak',
       lead:
         'Featured on Odisha Talks as a trailblazer in government initiatives and women empowerment — including her association with Biju Swasthya Kalyan Yojana.',
       body:
@@ -357,9 +357,9 @@ export const content: Record<Locale, Content> = {
 
   bn: {
     meta: {
-      title: 'শ্রীমতি নিবেদিতা নায়ক — সামাজিক নেত্রী ও নীতিনির্ধারণী প্রভাবক',
+      title: 'শ্রীমতি নিবেদিতা বালিয়ারসিংহ নায়ক — সামাজিক নেত্রী ও নীতিনির্ধারণী প্রভাবক',
       description:
-        'শ্রীমতি নিবেদিতা নায়ক ওড়িশার একজন বিশিষ্ট সামাজিক-রাজনৈতিক নেত্রী, উন্নয়ন কৌশলবিদ ও সাংস্কৃতিক রাষ্ট্রদূত — দুই দশকেরও বেশি অভিজ্ঞতা নিয়ে তৃণমূল রূপান্তর, শাসন ও জননীতির ক্ষেত্রে।',
+        'শ্রীমতি নিবেদিতা বালিয়ারসিংহ নায়ক ওড়িশার একজন বিশিষ্ট সামাজিক-রাজনৈতিক নেত্রী, উন্নয়ন কৌশলবিদ ও সাংস্কৃতিক রাষ্ট্রদূত — দুই দশকেরও বেশি অভিজ্ঞতা নিয়ে তৃণমূল রূপান্তর, শাসন ও জননীতির ক্ষেত্রে।',
     },
     nav: {
       home: 'হোম',
@@ -374,7 +374,7 @@ export const content: Record<Locale, Content> = {
       close: 'বন্ধ',
     },
     hero: {
-      name: 'শ্রীমতি নিবেদিতা নায়ক',
+      name: 'শ্রীমতি নিবেদিতা বালিয়ারসিংহ নায়ক',
       role: 'সামাজিক নেত্রী ও নীতিনির্ধারণী প্রভাবক',
       statement:
         'দুই দশকেরও বেশি তৃণমূল রূপান্তর, শাসন ও জননীতি — সামাজিক ন্যায়, লিঙ্গ সমতা, অন্তর্ভুক্তিমূলক বৃদ্ধি এবং ওড়িশার সাংস্কৃতিক উত্তরাধিকারকে এগিয়ে নিয়ে যাওয়া।',
@@ -390,7 +390,7 @@ export const content: Record<Locale, Content> = {
       eyebrow: '০১ — কাহিনি',
       title: 'নীতি ও মানুষের সেতুবন্ধন',
       lead:
-        'শ্রীমতি নিবেদিতা নায়ক ওড়িশার একজন বিশিষ্ট সামাজিক-রাজনৈতিক নেত্রী, উন্নয়ন কৌশলবিদ ও সাংস্কৃতিক রাষ্ট্রদূত।',
+        'শ্রীমতি নিবেদিতা বালিয়ারসিংহ নায়ক ওড়িশার একজন বিশিষ্ট সামাজিক-রাজনৈতিক নেত্রী, উন্নয়ন কৌশলবিদ ও সাংস্কৃতিক রাষ্ট্রদূত।',
       quote:
         'নীতি ও মানুষের ব্যবধান কমানো — যাতে কল্যাণ শেষ মাইল পর্যন্ত পৌঁছায়।',
       body: [
@@ -524,7 +524,7 @@ export const content: Record<Locale, Content> = {
     media: {
       eyebrow: '০৭ — মিডিয়া',
       title: 'ওড়িশা টক্সের সঙ্গে আলাপ',
-      guest: 'নিবেদিতা নায়ক বালিয়ারসিংহ',
+      guest: 'নিবেদিতা বালিয়ারসিংহ নায়ক',
       lead:
         'ওড়িশা টক্সে সরকারি উদ্যোগ ও নারী ক্ষমতায়নের অগ্রপথিক হিসেবে উপস্থাপিত — বিজু স্বাস্থ্য কল্যাণ যোজনার সঙ্গে তাঁর সম্পৃক্ততাসহ।',
       body:
@@ -610,9 +610,9 @@ export const content: Record<Locale, Content> = {
 
   hi: {
     meta: {
-      title: 'श्रीमती निबेदिता नायक — सामाजिक नेत्री एवं नीति प्रभावक',
+      title: 'श्रीमती निबेदिता बलियारसिंह नायक — सामाजिक नेत्री एवं नीति प्रभावक',
       description:
-        'श्रीमती निबेदिता नायक ओडिशा की एक प्रतिष्ठित सामाजिक-राजनीतिक नेत्री, विकास रणनीतिकार और सांस्कृतिक राजदूत हैं — दो दशकों से अधिक अनुभव के साथ जमीनी परिवर्तन, शासन और लोकनीति के क्षेत्र में।',
+        'श्रीमती निबेदिता बलियारसिंह नायक ओडिशा की एक प्रतिष्ठित सामाजिक-राजनीतिक नेत्री, विकास रणनीतिकार और सांस्कृतिक राजदूत हैं — दो दशकों से अधिक अनुभव के साथ जमीनी परिवर्तन, शासन और लोकनीति के क्षेत्र में।',
     },
     nav: {
       home: 'होम',
@@ -627,7 +627,7 @@ export const content: Record<Locale, Content> = {
       close: 'बंद',
     },
     hero: {
-      name: 'श्रीमती निबेदिता नायक',
+      name: 'श्रीमती निबेदिता बलियारसिंह नायक',
       role: 'सामाजिक नेत्री एवं नीति प्रभावक',
       statement:
         'दो दशकों से अधिक जमीनी परिवर्तन, शासन और लोकनीति — सामाजिक न्याय, लैंगिक समानता, समावेशी विकास और ओडिशा की सांस्कृतिक विरासत को आगे बढ़ाते हुए।',
@@ -643,7 +643,7 @@ export const content: Record<Locale, Content> = {
       eyebrow: '०१ — कहानी',
       title: 'नीति और लोगों के बीच सेतु',
       lead:
-        'श्रीमती निबेदिता नायक ओडिशा की एक प्रतिष्ठित सामाजिक-राजनीतिक नेत्री, विकास रणनीतिकार और सांस्कृतिक राजदूत हैं।',
+        'श्रीमती निबेदिता बलियारसिंह नायक ओडिशा की एक प्रतिष्ठित सामाजिक-राजनीतिक नेत्री, विकास रणनीतिकार और सांस्कृतिक राजदूत हैं।',
       quote:
         'नीति और लोगों के बीच की दूरी घटाना — ताकि कल्याण अंतिम छोर तक पहुँचे।',
       body: [
@@ -777,7 +777,7 @@ export const content: Record<Locale, Content> = {
     media: {
       eyebrow: '०७ — मीडिया',
       title: 'ओडिशा टॉक्स के साथ संवाद',
-      guest: 'निबेदिता नायक बलियारसिंह',
+      guest: 'निबेदिता बलियारसिंह नायक',
       lead:
         'ओडिशा टॉक्स पर सरकारी पहलों और महिला सशक्तिकरण की अग्रणी के रूप में प्रस्तुत — बीजू स्वास्थ्य कल्याण योजना से उनके जुड़ाव सहित।',
       body:
@@ -863,9 +863,9 @@ export const content: Record<Locale, Content> = {
 
   or: {
     meta: {
-      title: 'ଶ୍ରୀମତୀ ନିବେଦିତା ନାୟକ — ସାମାଜିକ ନେତ୍ରୀ ଓ ନୀତି ପ୍ରଭାବକ',
+      title: 'ଶ୍ରୀମତୀ ନିବେଦିତା ବଲିଆରସିଂହ ନାୟକ — ସାମାଜିକ ନେତ୍ରୀ ଓ ନୀତି ପ୍ରଭାବକ',
       description:
-        'ଶ୍ରୀମତୀ ନିବେଦିତା ନାୟକ ଓଡ଼ିଶାର ଜଣେ ବିଶିଷ୍ଟ ସାମାଜିକ-ରାଜନୈତିକ ନେତ୍ରୀ, ବିକାଶ ରଣନୀତିବିଦ୍ ଓ ସାଂସ୍କୃତିକ ରାଷ୍ଟ୍ରଦୂତ — ଦୁଇ ଦଶନ୍ଧିରୁ ଅଧିକ ଅନୁଭୂତି ସହିତ ତୃଣମୂଳ ରୂପାନ୍ତର, ଶାସନ ଓ ଲୋକନୀତି କ୍ଷେତ୍ରରେ।',
+        'ଶ୍ରୀମତୀ ନିବେଦିତା ବଲିଆରସିଂହ ନାୟକ ଓଡ଼ିଶାର ଜଣେ ବିଶିଷ୍ଟ ସାମାଜିକ-ରାଜନୈତିକ ନେତ୍ରୀ, ବିକାଶ ରଣନୀତିବିଦ୍ ଓ ସାଂସ୍କୃତିକ ରାଷ୍ଟ୍ରଦୂତ — ଦୁଇ ଦଶନ୍ଧିରୁ ଅଧିକ ଅନୁଭୂତି ସହିତ ତୃଣମୂଳ ରୂପାନ୍ତର, ଶାସନ ଓ ଲୋକନୀତି କ୍ଷେତ୍ରରେ।',
     },
     nav: {
       home: 'ମୂଳପୃଷ୍ଠା',
@@ -880,7 +880,7 @@ export const content: Record<Locale, Content> = {
       close: 'ବନ୍ଦ',
     },
     hero: {
-      name: 'ଶ୍ରୀମତୀ ନିବେଦିତା ନାୟକ',
+      name: 'ଶ୍ରୀମତୀ ନିବେଦିତା ବଲିଆରସିଂହ ନାୟକ',
       role: 'ସାମାଜିକ ନେତ୍ରୀ ଓ ନୀତି ପ୍ରଭାବକ',
       statement:
         'ଦୁଇ ଦଶନ୍ଧିରୁ ଅଧିକ ତୃଣମୂଳ ରୂପାନ୍ତର, ଶାସନ ଓ ଲୋକନୀତି — ସାମାଜିକ ନ୍ୟାୟ, ଲିଙ୍ଗ ସମାନତା, ସମାବେଶୀ ବିକାଶ ଏବଂ ଓଡ଼ିଶାର ସାଂସ୍କୃତିକ ଉତ୍ତରାଧିକାରକୁ ଆଗକୁ ନେଇ।',
@@ -896,7 +896,7 @@ export const content: Record<Locale, Content> = {
       eyebrow: '୦୧ — କାହାଣୀ',
       title: 'ନୀତି ଓ ଲୋକଙ୍କ ମଧ୍ୟରେ ସେତୁ',
       lead:
-        'ଶ୍ରୀମତୀ ନିବେଦିତା ନାୟକ ଓଡ଼ିଶାର ଜଣେ ବିଶିଷ୍ଟ ସାମାଜିକ-ରାଜନୈତିକ ନେତ୍ରୀ, ବିକାଶ ରଣନୀତିବିଦ୍ ଓ ସାଂସ୍କୃତିକ ରାଷ୍ଟ୍ରଦୂତ।',
+        'ଶ୍ରୀମତୀ ନିବେଦିତା ବଲିଆରସିଂହ ନାୟକ ଓଡ଼ିଶାର ଜଣେ ବିଶିଷ୍ଟ ସାମାଜିକ-ରାଜନୈତିକ ନେତ୍ରୀ, ବିକାଶ ରଣନୀତିବିଦ୍ ଓ ସାଂସ୍କୃତିକ ରାଷ୍ଟ୍ରଦୂତ।',
       quote:
         'ନୀତି ଓ ଲୋକଙ୍କ ମଧ୍ୟରେ ଥିବା ବ୍ୟବଧାନ କମାଇବା — ଯାହାଫଳରେ କଲ୍ୟାଣ ଶେଷ ମାଇଲ ପର୍ଯ୍ୟନ୍ତ ପହଞ୍ଚେ।',
       body: [
@@ -1030,7 +1030,7 @@ export const content: Record<Locale, Content> = {
     media: {
       eyebrow: '୦୭ — ମିଡ଼ିଆ',
       title: 'ଓଡ଼ିଶା ଟକ୍ସ ସହ ଆଲାପ',
-      guest: 'ନିବେଦିତା ନାୟକ ବଲିଆରସିଂହ',
+      guest: 'ନିବେଦିତା ବଲିଆରସିଂହ ନାୟକ',
       lead:
         'ଓଡ଼ିଶା ଟକ୍ସରେ ସରକାରୀ ଉଦ୍ୟମ ଓ ମହିଳା ସଶକ୍ତିକରଣର ଅଗ୍ରପଥିକ ଭାବରେ ଉପସ୍ଥାପିତ — ବିଜୁ ସ୍ୱାସ୍ଥ୍ୟ କଲ୍ୟାଣ ଯୋଜନା ସହ ତାଙ୍କ ସଂଯୋଗ ସହିତ।',
       body:

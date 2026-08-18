@@ -1,6 +1,6 @@
-# Nibedita Nayak — VVIP Digital Profile
+# Nibedita Baliarsingh Nayak — VVIP Digital Profile
 
-Premium public-figure profile for Smt. Nibedita Nayak.
+Premium public-figure profile for Smt. Nibedita Baliarsingh Nayak.
 
 ## Run
 
