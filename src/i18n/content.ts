@@ -285,44 +285,74 @@ export const content: Record<Locale, Content> = {
       intro: 'Leadership, community, and cultural engagements — selected photographs from her public work.',
       items: [
         {
-          src: '/images/leadership-meeting.png',
-          alt: 'Formal leadership meeting',
-          caption: 'Leadership meeting',
+          src: '/images/shivaji-jayanti-puri.png',
+          alt: 'Cultural rally for Chhatrapati Shivaji Maharaj Jayanti in Puri',
+          caption:
+            "Celebrating Chhatrapati Shivaji Maharaj Jayanti at Puri for the first time with a cultural rally of around 5000 participants",
         },
         {
-          src: '/images/governance-peers.png',
-          alt: 'With peers in a formal setting',
-          caption: 'Institutional engagement',
+          src: '/images/odisha-women-fest.png',
+          alt: 'Odisha Women Fest organised by Sthapana Charitable Trust',
+          caption:
+            'Odisha Women Fest was organised under the leadership of Nibedita Baliarsingh Nayak at Bhubaneswar',
         },
         {
-          src: '/images/culture-books.png',
-          alt: 'Cultural book presentation',
-          caption: 'Culture & literature',
+          src: '/images/bande-odisha-field.png',
+          alt: 'Bande Odisha community engagement in the field',
+          caption:
+            'As Chairperson of BANDE ODISHA — the flagship program, organised with the support of the Deptt. of Culture, Govt. of Odisha',
         },
         {
-          src: '/images/bande-odisha.png',
-          alt: 'Bande Odisha community gathering',
-          caption: 'Bande Odisha',
+          src: '/images/mitti-ka-guman.png',
+          alt: 'Mitti Ka Guman honouring personalities of eminence on stage',
+          caption: 'Mitti Ka Guman — Honouring Personalities of eminence',
         },
         {
-          src: '/images/women-awakening.png',
-          alt: 'Women’s awakening centre inauguration',
-          caption: 'Women & community',
+          src: '/images/iim-sambalpur-scst.png',
+          alt: 'Guest speaker at IIM Sambalpur SC-ST Entrepreneurship cohort',
+          caption:
+            'Guest Speaker for ST SC Entrepreneurship Cohort program at IIM Sambalpur, Odisha',
         },
         {
-          src: '/images/cultural-leaders.png',
-          alt: 'With cultural and community leaders',
-          caption: 'Community leaders',
+          src: '/images/iit-sambalpur-faculty.png',
+          alt: 'With IIT Sambalpur Director Dr Mahadeo Jaiswal and faculty',
+          caption:
+            'IIT, Sambalpur Director Dr Mahadeo Jaiswal ji, and Nibedita Baliarsingh Nayak with faculty',
         },
         {
-          src: '/images/hero-portrait.png',
-          alt: 'Cultural presentation with Jagannath artwork',
-          caption: 'Cultural presentation',
+          src: '/images/women-producer-kolhapur.png',
+          alt: 'With Women Producer Group in Kolhapur Maharashtra',
+          caption: 'With Women Producer Group, Kolhapur, Maharashtra',
         },
         {
-          src: '/images/community-meeting.png',
-          alt: 'Community meeting indoors',
-          caption: 'Grassroots meeting',
+          src: '/images/literature-books-event.png',
+          alt: 'Literature and book presentation with Odia authors',
+          caption: 'Literature and book presentation',
+        },
+        {
+          src: '/images/veterans-meeting.png',
+          alt: 'Formal meeting with institutional guests',
+          caption: 'Formal institutional meeting',
+        },
+        {
+          src: '/images/ceremonial-gathering.png',
+          alt: 'Formal ceremonial gathering in an auditorium',
+          caption: 'Ceremonial gathering with community leaders',
+        },
+        {
+          src: '/images/folk-culture-night.png',
+          alt: 'With folk performers at a night cultural event',
+          caption: 'With folk performers at a cultural celebration',
+        },
+        {
+          src: '/images/community-women-night.png',
+          alt: 'Community outreach with women at a night gathering',
+          caption: 'Community outreach with women leaders',
+        },
+        {
+          src: '/images/spiritual-engagement.png',
+          alt: 'Spiritual and cultural engagement at a temple space',
+          caption: 'Spiritual and cultural engagement',
         },
       ],
     },
@@ -538,44 +568,74 @@ export const content: Record<Locale, Content> = {
       intro: 'নেতৃত্ব, সম্প্রদায় ও সাংস্কৃতিক সম্পৃক্ততার নির্বাচিত আলোকচিত্র।',
       items: [
         {
-          src: '/images/leadership-meeting.png',
-          alt: 'আনুষ্ঠানিক নেতৃত্ব বৈঠক',
-          caption: 'নেতৃত্ব বৈঠক',
+          src: '/images/shivaji-jayanti-puri.png',
+          alt: 'পুরীতে ছত্রপতি শিবাজী মহারাজ জয়ন্তী সাংস্কৃতিক র‍্যালি',
+          caption:
+            'প্রথমবার পুরীতে ছত্রপতি শিবাজী মহারাজ জয়ন্তী উদযাপন — প্রায় ৫০০০ অংশগ্রহণকারীর সাংস্কৃতিক র‍্যালি',
         },
         {
-          src: '/images/governance-peers.png',
-          alt: 'আনুষ্ঠানিক পরিবেশে সহকর্মীদের সঙ্গে',
-          caption: 'প্রাতিষ্ঠানিক সম্পৃক্ততা',
+          src: '/images/odisha-women-fest.png',
+          alt: 'স্থাপনা চ্যারিটেবল ট্রাস্টের ওড়িশা উইমেন ফেস্ট',
+          caption:
+            'নিবেদিতা বালিয়ারসিংহ নায়কের নেতৃত্বে ভুবনেশ্বরে ওড়িশা উইমেন ফেস্ট আয়োজিত',
         },
         {
-          src: '/images/culture-books.png',
-          alt: 'সাংস্কৃতিক বই উপস্থাপনা',
-          caption: 'সংস্কৃতি ও সাহিত্য',
+          src: '/images/bande-odisha-field.png',
+          alt: 'বন্দে ওড়িশা মাঠ পর্যায়ের সম্পৃক্ততা',
+          caption:
+            'বন্দে ওড়িশার চেয়ারপারসন হিসেবে — পতাকাবাহী কর্মসূচি, সংস্কৃতি বিভাগ, ওড়িশা সরকারের সহায়তায় আয়োজিত',
         },
         {
-          src: '/images/bande-odisha.png',
-          alt: 'বন্দে ওড়িশা সম্প্রদায় সমাবেশ',
-          caption: 'বন্দে ওড়িশা',
+          src: '/images/mitti-ka-guman.png',
+          alt: 'মিত্তি কা গুমান অনুষ্ঠানে সম্মাননা',
+          caption: 'মিত্তি কা গুমান — বিশিষ্ট ব্যক্তিত্বদের সম্মাননা',
         },
         {
-          src: '/images/women-awakening.png',
-          alt: 'নারী জাগরণ কেন্দ্র উদ্বোধন',
-          caption: 'নারী ও সম্প্রদায়',
+          src: '/images/iim-sambalpur-scst.png',
+          alt: 'আইআইএম সম্পলপুরে এসসি-এসটি উদ্যোক্তা কোহর্টে অতিথি বক্তা',
+          caption:
+            'আইআইএম সম্পলপুর, ওড়িশায় এসটি এসসি উদ্যোক্তা কোহর্ট কর্মসূচিতে অতিথি বক্তা',
         },
         {
-          src: '/images/cultural-leaders.png',
-          alt: 'সাংস্কৃতিক ও সম্প্রদায় নেতাদের সঙ্গে',
-          caption: 'সম্প্রদায় নেতৃত্ব',
+          src: '/images/iit-sambalpur-faculty.png',
+          alt: 'আইআইটি সম্পলপুর পরিচালক ডঃ মহাদেও জয়সওয়াল ও অনুষদের সঙ্গে',
+          caption:
+            'আইআইটি, সম্পলপুর পরিচালক ডঃ মহাদেও জয়সওয়াল জি এবং নিবেদিতা বালিয়ারসিংহ নায়ক অনুষদের সঙ্গে',
         },
         {
-          src: '/images/hero-portrait.png',
-          alt: 'জগন্নাথ চিত্রসহ সাংস্কৃতিক উপস্থাপনা',
-          caption: 'সাংস্কৃতিক উপস্থাপনা',
+          src: '/images/women-producer-kolhapur.png',
+          alt: 'কলহাপুর মহারাষ্ট্রে নারী উৎপাদক গোষ্ঠীর সঙ্গে',
+          caption: 'নারী উৎপাদক গোষ্ঠীর সঙ্গে, কলহাপুর, মহারাষ্ট্র',
         },
         {
-          src: '/images/community-meeting.png',
-          alt: 'অন্দর সম্প্রদায় বৈঠক',
-          caption: 'তৃণমূল বৈঠক',
+          src: '/images/literature-books-event.png',
+          alt: 'ওড়িয়া সাহিত্য ও বই উপস্থাপনা',
+          caption: 'সাহিত্য ও বই উপস্থাপনা',
+        },
+        {
+          src: '/images/veterans-meeting.png',
+          alt: 'প্রাতিষ্ঠানিক অতিথিদের সঙ্গে আনুষ্ঠানিক বৈঠক',
+          caption: 'আনুষ্ঠানিক প্রাতিষ্ঠানিক বৈঠক',
+        },
+        {
+          src: '/images/ceremonial-gathering.png',
+          alt: 'অডিটোরিয়ামে আনুষ্ঠানিক সমাবেশ',
+          caption: 'সম্প্রদায় নেতাদের সঙ্গে আনুষ্ঠানিক সমাবেশ',
+        },
+        {
+          src: '/images/folk-culture-night.png',
+          alt: 'লোকশিল্পীদের সঙ্গে সাংস্কৃতিক অনুষ্ঠান',
+          caption: 'সাংস্কৃতিক উৎসবে লোকশিল্পীদের সঙ্গে',
+        },
+        {
+          src: '/images/community-women-night.png',
+          alt: 'নারীদের সঙ্গে তৃণমূল সম্পৃক্ততা',
+          caption: 'নারী নেতৃত্বের সঙ্গে সম্প্রদায় সম্পৃক্ততা',
+        },
+        {
+          src: '/images/spiritual-engagement.png',
+          alt: 'আধ্যাত্মিক ও সাংস্কৃতিক সম্পৃক্ততা',
+          caption: 'আধ্যাত্মিক ও সাংস্কৃতিক সম্পৃক্ততা',
         },
       ],
     },
@@ -791,44 +851,74 @@ export const content: Record<Locale, Content> = {
       intro: 'नेतृत्व, समुदाय और सांस्कृतिक जुड़ाव की चयनित तस्वीरें।',
       items: [
         {
-          src: '/images/leadership-meeting.png',
-          alt: 'औपचारिक नेतृत्व बैठक',
-          caption: 'नेतृत्व बैठक',
+          src: '/images/shivaji-jayanti-puri.png',
+          alt: 'पुरी में छत्रपति शिवाजी महाराज जयंती सांस्कृतिक रैली',
+          caption:
+            'पुरी में पहली बार छत्रपति शिवाजी महाराज जयंती का उत्सव — लगभग ५००० प्रतिभागियों की सांस्कृतिक रैली',
         },
         {
-          src: '/images/governance-peers.png',
-          alt: 'औपचारिक परिवेश में साथियों के साथ',
-          caption: 'संस्थागत जुड़ाव',
+          src: '/images/odisha-women-fest.png',
+          alt: 'स्थापना चैरिटेबल ट्रस्ट का ओडिशा विमेन फेस्ट',
+          caption:
+            'निबेदिता बलियारसिंह नायक के नेतृत्व में भुवनेश्वर में ओडिशा विमेन फेस्ट का आयोजन',
         },
         {
-          src: '/images/culture-books.png',
-          alt: 'सांस्कृतिक पुस्तक प्रस्तुति',
-          caption: 'संस्कृति एवं साहित्य',
+          src: '/images/bande-odisha-field.png',
+          alt: 'बंदे ओडिशा क्षेत्रीय जुड़ाव',
+          caption:
+            'बंदे ओडिशा की अध्यक्ष के रूप में — प्रमुख कार्यक्रम, संस्कृति विभाग, ओडिशा सरकार के सहयोग से आयोजित',
         },
         {
-          src: '/images/bande-odisha.png',
-          alt: 'बंदे ओडिशा सामुदायिक सभा',
-          caption: 'बंदे ओडिशा',
+          src: '/images/mitti-ka-guman.png',
+          alt: 'मिट्टी का गुमान समारोह में सम्मान',
+          caption: 'मिट्टी का गुमान — विभूतियों का सम्मान',
         },
         {
-          src: '/images/women-awakening.png',
-          alt: 'महिला जागरण केंद्र उद्घाटन',
-          caption: 'महिला एवं समुदाय',
+          src: '/images/iim-sambalpur-scst.png',
+          alt: 'आईआईएम संबलपुर में एससी-एसटी उद्यमिता कोहोर्ट में अतिथि वक्ता',
+          caption:
+            'आईआईएम संबलपुर, ओडिशा में एसटी एससी उद्यमिता कोहोर्ट कार्यक्रम में अतिथि वक्ता',
         },
         {
-          src: '/images/cultural-leaders.png',
-          alt: 'सांस्कृतिक और सामुदायिक नेताओं के साथ',
-          caption: 'सामुदायिक नेतृत्व',
+          src: '/images/iit-sambalpur-faculty.png',
+          alt: 'आईआईटी संबलपुर निदेशक डॉ. महादेव जयसवाल और संकाय के साथ',
+          caption:
+            'आईआईटी, संबलपुर निदेशक डॉ. महादेव जयसवाल जी और निबेदिता बलियारसिंह नायक संकाय के साथ',
         },
         {
-          src: '/images/hero-portrait.png',
-          alt: 'जगन्नाथ चित्र के साथ सांस्कृतिक प्रस्तुति',
-          caption: 'सांस्कृतिक प्रस्तुति',
+          src: '/images/women-producer-kolhapur.png',
+          alt: 'कोल्हापुर महाराष्ट्र में महिला उत्पादक समूह के साथ',
+          caption: 'महिला उत्पादक समूह के साथ, कोल्हापुर, महाराष्ट्र',
         },
         {
-          src: '/images/community-meeting.png',
-          alt: 'इंडोर सामुदायिक बैठक',
-          caption: 'जमीनी बैठक',
+          src: '/images/literature-books-event.png',
+          alt: 'ओडिया साहित्य और पुस्तक प्रस्तुति',
+          caption: 'साहित्य और पुस्तक प्रस्तुति',
+        },
+        {
+          src: '/images/veterans-meeting.png',
+          alt: 'संस्थागत अतिथियों के साथ औपचारिक बैठक',
+          caption: 'औपचारिक संस्थागत बैठक',
+        },
+        {
+          src: '/images/ceremonial-gathering.png',
+          alt: 'ऑडिटोरियम में औपचारिक सभा',
+          caption: 'सामुदायिक नेताओं के साथ औपचारिक सभा',
+        },
+        {
+          src: '/images/folk-culture-night.png',
+          alt: 'लोक कलाकारों के साथ सांस्कृतिक कार्यक्रम',
+          caption: 'सांस्कृतिक उत्सव में लोक कलाकारों के साथ',
+        },
+        {
+          src: '/images/community-women-night.png',
+          alt: 'महिलाओं के साथ जमीनी जुड़ाव',
+          caption: 'महिला नेतृत्व के साथ सामुदायिक जुड़ाव',
+        },
+        {
+          src: '/images/spiritual-engagement.png',
+          alt: 'आध्यात्मिक और सांस्कृतिक जुड़ाव',
+          caption: 'आध्यात्मिक और सांस्कृतिक जुड़ाव',
         },
       ],
     },
@@ -1044,44 +1134,74 @@ export const content: Record<Locale, Content> = {
       intro: 'ନେତୃତ୍ୱ, ସମ୍ପ୍ରଦାୟ ଓ ସାଂସ୍କୃତିକ ସଂପୃକ୍ତିର ମନୋନୀତ ଫଟୋ।',
       items: [
         {
-          src: '/images/leadership-meeting.png',
-          alt: 'ଔପଚାରିକ ନେତୃତ୍ୱ ବୈଠକ',
-          caption: 'ନେତୃତ୍ୱ ବୈଠକ',
+          src: '/images/shivaji-jayanti-puri.png',
+          alt: 'ପୁରୀରେ ଛତ୍ରପତି ଶିବାଜୀ ମହାରାଜ ଜୟନ୍ତୀ ସାଂସ୍କୃତିକ ରାଲି',
+          caption:
+            'ପ୍ରଥମଥର ପୁରୀରେ ଛତ୍ରପତି ଶିବାଜୀ ମହାରାଜ ଜୟନ୍ତୀ ଉତ୍ସବ — ପ୍ରାୟ ୫୦୦୦ ଅଂଶଗ୍ରହଣକାରୀଙ୍କ ସାଂସ୍କୃତିକ ରାଲି',
         },
         {
-          src: '/images/governance-peers.png',
-          alt: 'ଔପଚାରିକ ପରିବେଶରେ ସହକର୍ମୀଙ୍କ ସହ',
-          caption: 'ପ୍ରାତିଷ୍ଠାନିକ ସଂପୃକ୍ତି',
+          src: '/images/odisha-women-fest.png',
+          alt: 'ସ୍ଥାପନା ଚ୍ୟାରିଟେବଲ୍ ଟ୍ରଷ୍ଟର ଓଡ଼ିଶା ୱୁମେନ୍ ଫେଷ୍ଟ',
+          caption:
+            'ନିବେଦିତା ବଲିଆରସିଂହ ନାୟକଙ୍କ ନେତୃତ୍ୱରେ ଭୁବନେଶ୍ୱରରେ ଓଡ଼ିଶା ୱୁମେନ୍ ଫେଷ୍ଟ ଆୟୋଜିତ',
         },
         {
-          src: '/images/culture-books.png',
-          alt: 'ସାଂସ୍କୃତିକ ବହି ଉପସ୍ଥାପନା',
-          caption: 'ସଂସ୍କୃତି ଓ ସାହିତ୍ୟ',
+          src: '/images/bande-odisha-field.png',
+          alt: 'ବନ୍ଦେ ଓଡ଼ିଶା କ୍ଷେତ୍ରୀୟ ସଂପୃକ୍ତି',
+          caption:
+            'ବନ୍ଦେ ଓଡ଼ିଶାର ଅଧ୍ୟକ୍ଷା ଭାବରେ — ପତାକାବାହୀ କାର୍ଯ୍ୟକ୍ରମ, ସଂସ୍କୃତି ବିଭାଗ, ଓଡ଼ିଶା ସରକାରଙ୍କ ସହଯୋଗରେ ଆୟୋଜିତ',
         },
         {
-          src: '/images/bande-odisha.png',
-          alt: 'ବନ୍ଦେ ଓଡ଼ିଶା ସାମୁଦାୟିକ ସଭା',
-          caption: 'ବନ୍ଦେ ଓଡ଼ିଶା',
+          src: '/images/mitti-ka-guman.png',
+          alt: 'ମିଟ୍ଟି କା ଗୁମାନ ସମାରୋହରେ ସମ୍ମାନ',
+          caption: 'ମିଟ୍ଟି କା ଗୁମାନ — ବିଶିଷ୍ଟ ବ୍ୟକ୍ତିତ୍ୱଙ୍କ ସମ୍ମାନ',
         },
         {
-          src: '/images/women-awakening.png',
-          alt: 'ମହିଳା ଜାଗରଣ କେନ୍ଦ୍ର ଉଦ୍‌ଘାଟନ',
-          caption: 'ମହିଳା ଓ ସମ୍ପ୍ରଦାୟ',
+          src: '/images/iim-sambalpur-scst.png',
+          alt: 'ଆଇଆଇଏମ୍ ସମ୍ବଲପୁରରେ ଏସସି-ଏସଟି ଉଦ୍ୟୋଗୀ କୋହର୍ଟରେ ଅତିଥି ବକ୍ତା',
+          caption:
+            'ଆଇଆଇଏମ୍ ସମ୍ବଲପୁର, ଓଡ଼ିଶାରେ ଏସଟି ଏସସି ଉଦ୍ୟୋଗୀ କୋହର୍ଟ କାର୍ଯ୍ୟକ୍ରମରେ ଅତିଥି ବକ୍ତା',
         },
         {
-          src: '/images/cultural-leaders.png',
-          alt: 'ସାଂସ୍କୃତିକ ଓ ସାମୁଦାୟିକ ନେତାଙ୍କ ସହ',
-          caption: 'ସାମୁଦାୟିକ ନେତୃତ୍ୱ',
+          src: '/images/iit-sambalpur-faculty.png',
+          alt: 'ଆଇଆଇଟି ସମ୍ବଲପୁର ନିର୍ଦ୍ଦେଶକ ଡଃ ମହାଦେଓ ଜୟସୱାଲ ଓ ଅଧ୍ୟାପକଙ୍କ ସହ',
+          caption:
+            'ଆଇଆଇଟି, ସମ୍ବଲପୁର ନିର୍ଦ୍ଦେଶକ ଡଃ ମହାଦେଓ ଜୟସୱାଲ ଜି ଏବଂ ନିବେଦିତା ବଲିଆରସିଂହ ନାୟକ ଅଧ୍ୟାପକଙ୍କ ସହ',
         },
         {
-          src: '/images/hero-portrait.png',
-          alt: 'ଜଗନ୍ନାଥ ଚିତ୍ର ସହ ସାଂସ୍କୃତିକ ଉପସ୍ଥାପନା',
-          caption: 'ସାଂସ୍କୃତିକ ଉପସ୍ଥାପନା',
+          src: '/images/women-producer-kolhapur.png',
+          alt: 'କୋଲହାପୁର ମହାରାଷ୍ଟ୍ରରେ ମହିଳା ଉତ୍ପାଦକ ଗୋଷ୍ଠୀ ସହ',
+          caption: 'ମହିଳା ଉତ୍ପାଦକ ଗୋଷ୍ଠୀ ସହ, କୋଲହାପୁର, ମହାରାଷ୍ଟ୍ର',
         },
         {
-          src: '/images/community-meeting.png',
-          alt: 'ଘର ଭିତରେ ସାମୁଦାୟିକ ବୈଠକ',
-          caption: 'ତୃଣମୂଳ ବୈଠକ',
+          src: '/images/literature-books-event.png',
+          alt: 'ଓଡ଼ିଆ ସାହିତ୍ୟ ଓ ବହି ଉପସ୍ଥାପନା',
+          caption: 'ସାହିତ୍ୟ ଓ ବହି ଉପସ୍ଥାପନା',
+        },
+        {
+          src: '/images/veterans-meeting.png',
+          alt: 'ପ୍ରାତିଷ୍ଠାନିକ ଅତିଥିଙ୍କ ସହ ଔପଚାରିକ ବୈଠକ',
+          caption: 'ଔପଚାରିକ ପ୍ରାତିଷ୍ଠାନିକ ବୈଠକ',
+        },
+        {
+          src: '/images/ceremonial-gathering.png',
+          alt: 'ଅଡିଟୋରିଅମରେ ଔପଚାରିକ ସଭା',
+          caption: 'ସାମୁଦାୟିକ ନେତାଙ୍କ ସହ ଔପଚାରିକ ସଭା',
+        },
+        {
+          src: '/images/folk-culture-night.png',
+          alt: 'ଲୋକକଳାକାରଙ୍କ ସହ ସାଂସ୍କୃତିକ ଅନୁଷ୍ଠାନ',
+          caption: 'ସାଂସ୍କୃତିକ ଉତ୍ସବରେ ଲୋକକଳାକାରଙ୍କ ସହ',
+        },
+        {
+          src: '/images/community-women-night.png',
+          alt: 'ମହିଳାଙ୍କ ସହ ତୃଣମୂଳ ସଂପୃକ୍ତି',
+          caption: 'ମହିଳା ନେତୃତ୍ୱ ସହ ସାମୁଦାୟିକ ସଂପୃକ୍ତି',
+        },
+        {
+          src: '/images/spiritual-engagement.png',
+          alt: 'ଆଧ୍ୟାତ୍ମିକ ଓ ସାଂସ୍କୃତିକ ସଂପୃକ୍ତି',
+          caption: 'ଆଧ୍ୟାତ୍ମିକ ଓ ସାଂସ୍କୃତିକ ସଂପୃକ୍ତି',
         },
       ],
     },
