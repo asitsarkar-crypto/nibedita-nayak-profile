@@ -285,10 +285,37 @@ export const content: Record<Locale, Content> = {
       intro: 'Leadership, community, and cultural engagements — selected photographs from her public work.',
       items: [
         {
+          src: '/images/ashwini-vaishnav-meeting.png',
+          alt: 'Meeting with Honble Minister of Railway Sj Ashwini Vaishnav and MP Balabhadra Majhi',
+          caption:
+            "Meeting Sj Ashwini Vaishnav ji, Hon'ble Minister of Railway and IMPR, India and discussed Talcher–Bimalagarh Railway Line construction work with Hon'ble MP Nawarangpur Sri Balabhadra Majhi ji",
+        },
+        {
+          src: '/images/jual-oram-tribal-affairs.png',
+          alt: 'Courtesy meet with Honble Minister of Tribal Affairs Sj Jual Oram at New Delhi',
+          caption:
+            "Courtesy meet with Hon'ble Minister Tribal Affairs, India Sj Jual Oram ji at New Delhi",
+        },
+        {
+          src: '/images/courtesy-meeting-group.png',
+          alt: 'Institutional courtesy meeting and group felicitation',
+          caption: 'Courtesy meeting and felicitation during institutional engagement',
+        },
+        {
+          src: '/images/courtesy-meeting-felicitation-2.png',
+          alt: 'Felicitation with floral bouquet during institutional courtesy meeting',
+          caption: 'Courtesy meeting and felicitation during institutional engagement',
+        },
+        {
+          src: '/images/courtesy-meeting-felicitation-1.png',
+          alt: 'Discussion during institutional courtesy meeting',
+          caption: 'Courtesy meeting and felicitation during institutional engagement',
+        },
+        {
           src: '/images/shivaji-jayanti-puri.png',
           alt: 'Cultural rally for Chhatrapati Shivaji Maharaj Jayanti in Puri',
           caption:
-            "Celebrating Chhatrapati Shivaji Maharaj Jayanti at Puri for the first time with a cultural rally of around 5000 participants",
+            'Chhatrapati Shivaji Maharaj Jayanti organised at Puri by the team of Sthapana Charitable Trust under the Chairmanship of Nibedita Baliarsingh Nayak, Founder of SCT',
         },
         {
           src: '/images/odisha-women-fest.png',
@@ -568,10 +595,37 @@ export const content: Record<Locale, Content> = {
       intro: 'নেতৃত্ব, সম্প্রদায় ও সাংস্কৃতিক সম্পৃক্ততার নির্বাচিত আলোকচিত্র।',
       items: [
         {
+          src: '/images/ashwini-vaishnav-meeting.png',
+          alt: 'রেলমন্ত্রী অশ্বিনী বৈষ্ণব ও এমপি বলভদ্র মাঝির সঙ্গে বৈঠক',
+          caption:
+            'মাননীয় রেল ও IMPR মন্ত্রী শ্রী অশ্বিনী বৈষ্ণব জির সঙ্গে বৈঠক এবং মাননীয় এমপি নবরংপুর শ্রী বলভদ্র মাঝি জির সঙ্গে তালচের–বিমলাগড় রেললাইন নির্মাণ নিয়ে আলোচনা',
+        },
+        {
+          src: '/images/jual-oram-tribal-affairs.png',
+          alt: 'উপজাতি বিষয়ক মন্ত্রী জুয়াল ওরামের সঙ্গে সৌজন্য সাক্ষাৎ',
+          caption:
+            'ভারতের মাননীয় উপজাতি বিষয়ক মন্ত্রী শ্রী জুয়াল ওরাম জির সঙ্গে নয়াদিল্লিতে সৌজন্য সাক্ষাৎ',
+        },
+        {
+          src: '/images/courtesy-meeting-group.png',
+          alt: 'প্রাতিষ্ঠানিক সৌজন্য বৈঠক ও সম্মাননা',
+          caption: 'প্রাতিষ্ঠানিক সম্পৃক্ততায় সৌজন্য বৈঠক ও সম্মাননা',
+        },
+        {
+          src: '/images/courtesy-meeting-felicitation-2.png',
+          alt: 'প্রাতিষ্ঠানিক সৌজন্য বৈঠকে পুষ্পস্তবকসহ সম্মাননা',
+          caption: 'প্রাতিষ্ঠানিক সম্পৃক্ততায় সৌজন্য বৈঠক ও সম্মাননা',
+        },
+        {
+          src: '/images/courtesy-meeting-felicitation-1.png',
+          alt: 'প্রাতিষ্ঠানিক সৌজন্য বৈঠকে আলোচনা',
+          caption: 'প্রাতিষ্ঠানিক সম্পৃক্ততায় সৌজন্য বৈঠক ও সম্মাননা',
+        },
+        {
           src: '/images/shivaji-jayanti-puri.png',
           alt: 'পুরীতে ছত্রপতি শিবাজী মহারাজ জয়ন্তী সাংস্কৃতিক র‍্যালি',
           caption:
-            'প্রথমবার পুরীতে ছত্রপতি শিবাজী মহারাজ জয়ন্তী উদযাপন — প্রায় ৫০০০ অংশগ্রহণকারীর সাংস্কৃতিক র‍্যালি',
+            'নিবেদিতা বালিয়ারসিংহ নায়ক, প্রতিষ্ঠাতা SCT-এর চেয়ারম্যানশিপে স্থাপনা চ্যারিটেবল ট্রাস্টের দল কর্তৃক পুরীতে ছত্রপতি শিবাজী মহারাজ জয়ন্তী আয়োজিত',
         },
         {
           src: '/images/odisha-women-fest.png',
@@ -851,10 +905,37 @@ export const content: Record<Locale, Content> = {
       intro: 'नेतृत्व, समुदाय और सांस्कृतिक जुड़ाव की चयनित तस्वीरें।',
       items: [
         {
+          src: '/images/ashwini-vaishnav-meeting.png',
+          alt: 'रेल मंत्री अश्विनी वैष्णव और सांसद बलभद्र माझी के साथ बैठक',
+          caption:
+            'माननीय रेल एवं IMPR मंत्री श्री अश्विनी वैष्णव जी से भेंट और माननीय सांसद नवरंगपुर श्री बलभद्र माझी जी के साथ तालचेर–बिमलागढ़ रेल लाइन निर्माण पर चर्चा',
+        },
+        {
+          src: '/images/jual-oram-tribal-affairs.png',
+          alt: 'जनजातीय कार्य मंत्री जुआल ओराम से शिष्टाचार भेंट',
+          caption:
+            'भारत के माननीय जनजातीय कार्य मंत्री श्री जुआल ओराम जी से नई दिल्ली में शिष्टाचार भेंट',
+        },
+        {
+          src: '/images/courtesy-meeting-group.png',
+          alt: 'संस्थागत शिष्टाचार बैठक और सम्मान',
+          caption: 'संस्थागत जुड़ाव में शिष्टाचार बैठक और सम्मान',
+        },
+        {
+          src: '/images/courtesy-meeting-felicitation-2.png',
+          alt: 'संस्थागत शिष्टाचार बैठक में पुष्पगुच्छ सहित सम्मान',
+          caption: 'संस्थागत जुड़ाव में शिष्टाचार बैठक और सम्मान',
+        },
+        {
+          src: '/images/courtesy-meeting-felicitation-1.png',
+          alt: 'संस्थागत शिष्टाचार बैठक में चर्चा',
+          caption: 'संस्थागत जुड़ाव में शिष्टाचार बैठक और सम्मान',
+        },
+        {
           src: '/images/shivaji-jayanti-puri.png',
           alt: 'पुरी में छत्रपति शिवाजी महाराज जयंती सांस्कृतिक रैली',
           caption:
-            'पुरी में पहली बार छत्रपति शिवाजी महाराज जयंती का उत्सव — लगभग ५००० प्रतिभागियों की सांस्कृतिक रैली',
+            'निबेदिता बलियारसिंह नायक, संस्थापक SCT की अध्यक्षता में स्थापना चैरिटेबल ट्रस्ट की टीम द्वारा पुरी में छत्रपति शिवाजी महाराज जयंती का आयोजन',
         },
         {
           src: '/images/odisha-women-fest.png',
@@ -1134,10 +1215,37 @@ export const content: Record<Locale, Content> = {
       intro: 'ନେତୃତ୍ୱ, ସମ୍ପ୍ରଦାୟ ଓ ସାଂସ୍କୃତିକ ସଂପୃକ୍ତିର ମନୋନୀତ ଫଟୋ।',
       items: [
         {
+          src: '/images/ashwini-vaishnav-meeting.png',
+          alt: 'ରେଳମନ୍ତ୍ରୀ ଅଶ୍ୱିନୀ ବୈଷ୍ଣବ ଓ ସାଂସଦ ବଳଭଦ୍ର ମାଝିଙ୍କ ସହ ବୈଠକ',
+          caption:
+            'ମାନ୍ୟବର ରେଳ ଓ IMPR ମନ୍ତ୍ରୀ ଶ୍ରୀ ଅଶ୍ୱିନୀ ବୈଷ୍ଣବ ଜିଙ୍କ ସହ ବୈଠକ ଏବଂ ମାନ୍ୟବର ସାଂସଦ ନବରଙ୍ଗପୁର ଶ୍ରୀ ବଳଭଦ୍ର ମାଝି ଜିଙ୍କ ସହ ତାଲଚେର–ବିମଲାଗଡ଼ ରେଳଲାଇନ ନିର୍ମାଣ ବିଷୟରେ ଆଲୋଚନା',
+        },
+        {
+          src: '/images/jual-oram-tribal-affairs.png',
+          alt: 'ଆଦିବାସୀ ବ୍ୟାପାର ମନ୍ତ୍ରୀ ଜୁଆଲ ଓରାମଙ୍କ ସହ ସୌଜନ୍ୟ ସାକ୍ଷାତ',
+          caption:
+            'ଭାରତର ମାନ୍ୟବର ଆଦିବାସୀ ବ୍ୟାପାର ମନ୍ତ୍ରୀ ଶ୍ରୀ ଜୁଆଲ ଓରାମ ଜିଙ୍କ ସହ ନୂଆଦିଲ୍ଲୀରେ ସୌଜନ୍ୟ ସାକ୍ଷାତ',
+        },
+        {
+          src: '/images/courtesy-meeting-group.png',
+          alt: 'ପ୍ରାତିଷ୍ଠାନିକ ସୌଜନ୍ୟ ବୈଠକ ଓ ସମ୍ମାନ',
+          caption: 'ପ୍ରାତିଷ୍ଠାନିକ ସଂପୃକ୍ତିରେ ସୌଜନ୍ୟ ବୈଠକ ଓ ସମ୍ମାନ',
+        },
+        {
+          src: '/images/courtesy-meeting-felicitation-2.png',
+          alt: 'ପ୍ରାତିଷ୍ଠାନିକ ସୌଜନ୍ୟ ବୈଠକରେ ପୁଷ୍ପସ୍ତବକ ସହ ସମ୍ମାନ',
+          caption: 'ପ୍ରାତିଷ୍ଠାନିକ ସଂପୃକ୍ତିରେ ସୌଜନ୍ୟ ବୈଠକ ଓ ସମ୍ମାନ',
+        },
+        {
+          src: '/images/courtesy-meeting-felicitation-1.png',
+          alt: 'ପ୍ରାତିଷ୍ଠାନିକ ସୌଜନ୍ୟ ବୈଠକରେ ଆଲୋଚନା',
+          caption: 'ପ୍ରାତିଷ୍ଠାନିକ ସଂପୃକ୍ତିରେ ସୌଜନ୍ୟ ବୈଠକ ଓ ସମ୍ମାନ',
+        },
+        {
           src: '/images/shivaji-jayanti-puri.png',
           alt: 'ପୁରୀରେ ଛତ୍ରପତି ଶିବାଜୀ ମହାରାଜ ଜୟନ୍ତୀ ସାଂସ୍କୃତିକ ରାଲି',
           caption:
-            'ପ୍ରଥମଥର ପୁରୀରେ ଛତ୍ରପତି ଶିବାଜୀ ମହାରାଜ ଜୟନ୍ତୀ ଉତ୍ସବ — ପ୍ରାୟ ୫୦୦୦ ଅଂଶଗ୍ରହଣକାରୀଙ୍କ ସାଂସ୍କୃତିକ ରାଲି',
+            'ନିବେଦିତା ବଲିଆରସିଂହ ନାୟକ, ପ୍ରତିଷ୍ଠାତା SCTଙ୍କ ଅଧ୍ୟକ୍ଷତାରେ ସ୍ଥାପନା ଚ୍ୟାରିଟେବଲ୍ ଟ୍ରଷ୍ଟ ଦଳ ଦ୍ୱାରା ପୁରୀରେ ଛତ୍ରପତି ଶିବାଜୀ ମହାରାଜ ଜୟନ୍ତୀ ଆୟୋଜିତ',
         },
         {
           src: '/images/odisha-women-fest.png',
